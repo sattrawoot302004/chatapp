@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe "Message deletion" do
+RSpec.describe "User delete Message " do
   context "when user deletes a message" do
     it "removes the message from the view", js: true do
       given_room_with_message
